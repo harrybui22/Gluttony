@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Harry Bui> -- <Front-End Developer> -- <https://github.com/harrybui22>
+	
+    <Jessica Acerat> -- <Front-End Developer> -- <https://github.com/jtamiace>
+	
+    <Thomas Chang> -- <Web Designer, Hive Mind> -- <https://github.com/dancepartytacobell>
+
+# THANKS
+
+    <God, parents, and my ninja turtle>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+	Boilerplate, Bootstrap

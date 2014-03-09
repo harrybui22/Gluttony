@@ -1,0 +1,4 @@
+# robotstxt.org/
+# Hides pages from search engines
+
+User-agent: *
