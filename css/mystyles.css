@@ -182,12 +182,12 @@
 
 <<<<<<< HEAD
 
-=======
+
 /* Breadcrumbs */
 .breadcrumb {
 	font-size: 15px;
 }
->>>>>>> new restaurant page
+
  
  /* Clear */
 .clear{
@@ -277,5 +277,9 @@ footer {
 }
 
 .list-group-item:active {
+	background-color: #FD6449;
+}
+
+#clicked {
 	background-color: #FD6449;
 }

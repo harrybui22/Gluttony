@@ -111,7 +111,7 @@
       <div class="jumbotron">
     
     <ol class="breadcrumb">
-      <li><a href="#">Restaurants</a></li>
+      <li class="breadcrumb-item"><a href="#">Restaurants</a></li>
     </ol>
 
 
@@ -135,7 +135,7 @@
           </ul>
           <h3>Budget</h3>
           <ul class="list-group">
-            <li class="list-group-item">Under $5</li>
+            <li class="list-group-item"><a href="restaurants_under5.html">Under $5</a></li>
             <li class="list-group-item">Under $10</li>
             <li class="list-group-item">Under $20</li>
             <li class="list-group-item">Feelin Fancy</li>
@@ -166,6 +166,24 @@
 
       <div class="col-lg-8">
           <div class="well">
+            
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                      Collapsible Group Item #1
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="well">
               <h2>Trophy: Recipes</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -222,11 +240,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        
     </body>
 </html>
