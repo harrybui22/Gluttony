@@ -145,7 +145,7 @@
 
 .navbar .nav li {
     display: table-cell;
-    width: 2%;
+    width: 25%;
     float: none;
 }
 
@@ -180,7 +180,10 @@
 	display: table;
 }
 
-<<<<<<< HEAD
+#right-col {
+	float: right;
+}
+
 
 
 /* Breadcrumbs */
