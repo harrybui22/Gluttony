@@ -243,6 +243,11 @@ footer {
 	border-radius:50%
 }
 
+.well img {
+	width: 100%;
+	height: auto;
+}
+
 /* Forms*/
 .search { /* Search bar */
 	display:block;
@@ -308,4 +313,23 @@ footer {
 
 #clicked {
 	background-color: #FD6449;
+}
+
+/* Tables */
+.r-info {
+	font-size: 11px;
+}
+
+/* Text/Button */ 
+.restaurant-description {
+	font-size: 15px;
+	line-height: 16px;
+}
+
+#left-button {
+	float: left;
+}
+
+#right-button {
+	float: right;
 }
