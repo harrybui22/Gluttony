@@ -180,10 +180,15 @@
 	display: table;
 }
 
-#right-col {
-	float: right;
+.col-lg-6.left{
+	padding-right:0px;
+	padding-left:3%
 }
 
+.col-lg-6.right{
+	padding-right:3%;
+	padding-left:0px
+}
 
 
 /* Breadcrumbs */
@@ -199,8 +204,26 @@
 
 /* Footer */
 footer {
-	margin-top: 100px;
+	margin-top: 0px;
 }
+.footer-content {
+
+}
+.footer-content ul {
+	margin: 0;
+	padding: 0
+}
+.footer-content ul li{
+	display: inline-block;
+	list-style: none outside none
+}
+.divider li:before {
+	content: " | ";
+}
+.divider li:first-child:before {
+	content:none;
+}
+
 
 /* Images */
 .img-nav {
