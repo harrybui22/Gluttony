@@ -292,6 +292,16 @@ footer {
 	height: auto;
 }
 
+.imgholder img {
+	max-width: 560px;
+	max-height: 300px;
+}
+
+.imgholder {
+	float: right;
+	padding-top: 20px;
+}
+
 /* Forms*/
 .search { /* Search bar */
 	display:block;
@@ -399,6 +409,27 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .btn-default {
 	margin-bottom: 20px;
 	border-radius: 0px;
+}
+
+.imgholder .r-2lvl-description {
+	position:relative;
+	bottom:100px;
+	left:5px;
+	visibility:hidden;
+	color: white;
+}
+
+.imgholder:hover .r-2lvl-description {
+	visibility: visible;
+}
+
+.imgholder:hover img {
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.r-2lvl-description {
+	font-size: 14px;
 }
 
 .restaurant-description {
