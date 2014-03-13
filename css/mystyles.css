@@ -195,7 +195,6 @@
 .breadcrumb {
 	font-size: 15px;
 }
-
  
  /* Clear */
 .clear{
@@ -215,7 +214,8 @@ footer {
 }
 .footer-content ul li{
 	display: inline-block;
-	list-style: none outside none
+	list-style: none outside none;
+	padding-right: 1%
 }
 .divider li:before {
 	content: " | ";
@@ -223,7 +223,6 @@ footer {
 .divider li:first-child:before {
 	content:none;
 }
-
 
 /* Images */
 .img-nav {
@@ -314,6 +313,12 @@ footer {
 #clicked {
 	background-color: #FD6449;
 }
+
+/* Dropdown */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
 
 /* Tables */
 .r-info {
