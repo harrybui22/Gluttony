@@ -305,7 +305,6 @@ footer {
 
 .imgWrap { /* For Span*/
 	display: inline-block;
-	border: 1px solid #000;
 	-webkit-transition: 0.2s all;
 	-moz-transition: 0.2s all;
 	-o-transition: 0.2s all
