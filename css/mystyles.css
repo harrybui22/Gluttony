@@ -359,6 +359,15 @@ footer {
 	background-color: #FD6449;
 }
 
+.menu-list {
+	list-style-type: none;
+}
+
+.menu-list-item {
+	padding: 13px;
+	padding-left: 0px;
+}
+
 /* Dropdown */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
@@ -368,12 +377,43 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* Tables */
 .r-info {
 	font-size: 11px;
+	display: inline-block;
+}
+
+.right-info {
+	float: right;
+	font-size: 11px;
 }
 
 /* Text/Button */ 
+.author {
+	font-size: 11px;
+	padding-left: 15px;
+}
+
+.author,
+.review-title {
+	display: inline-block;
+}
+
+.btn-default {
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+
 .restaurant-description {
 	font-size: 15px;
 	line-height: 16px;
+	padding-top: 20px;
+}
+
+.review {
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0px;
+}
+
+.review-detail {
+	font-size: 13px;
 }
 
 #left-button {
