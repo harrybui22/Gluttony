@@ -306,20 +306,19 @@ footer {
 .imgWrap { /* For Span*/
 	display: inline-block;
 	border: 1px solid #000;
-	background-color: #fff;
+	-webkit-transition: 0.2s all;
+	-moz-transition: 0.2s all;
+	-o-transition: 0.2s all
 }
-
-.imgWrap img {
-    opacity: 1;
-}
-
 
 .imgWrap:hover {
-	background-color: #000;
+	-webkit-filter: brightness(20%);
+	-o-filter: brightness(20%);
+	-moz-filter: brightness(20%)
 }
 
 img:hover, .imgWrap:hover img{
-	opacity: 0;
+
 }
 
 
