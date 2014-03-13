@@ -11,9 +11,8 @@
         <meta name="author" content="Harry Bui, Jessica Acerat, Thomas Chang">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-        <title>Gluttony - Unhealthy Eats!</title>
+        <title>Yogurtland</title>
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -35,7 +34,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-     <div class="container">
+    <div class="container">
 
       <!-- HEADER================================================= -->
       <div class="row-head">
@@ -124,7 +123,8 @@
     
     <ol class="breadcrumb">
       <li><a href="restaurants.html">Restaurants</a></li>
-      <li><a href="restaurants_under5.html">On Campus</a></li>
+      <li><a href="restaurants_under10.html">Under $10</a></li>
+      <li><a href="restaurants_thirdlevel.html">Yogurtland</a></li>
     </ol>
 
 
@@ -149,13 +149,13 @@
           <h3>Budget</h3>
           <ul class="list-group">
             <li class="list-group-item"><a href="restaurants_under5.html">Under $5</a></li>
-            <li class="list-group-item"><a href="restaurants_under10.html">Under $10</a></li>
+            <li id="clicked" class="list-group-item"><a href="restaurants_under10.html">Under $10</a></li>
             <li class="list-group-item">Under $20</li>
             <li class="list-group-item">Feelin Fancy</li>
           </ul>
           <h3>Distance</h3>
           <ul class="list-group">
-            <li id="clicked" class="list-group-item"><a href="restaurants_oncampus.html">On Campus</a></li>
+            <li class="list-group-item"><a href="restaurants_oncampus.html">On Campus</a></li>
             <li class="list-group-item"><a href="restaurants_busrideaway.html">Bus Ride Away</a></li>
             <li class="list-group-item"><a href="restaurants_needacar.html">Need a Car</a></li>
           </ul>
@@ -178,46 +178,100 @@
       </div>
 
       <div class="col-lg-8">
-          <div class="well">
-            <a href="oncampus_third.html">
-              <h3>Trophy: Recipes</h3>
-                <div class="imgholder">
-                  <img class="image" src="img/ribs.jpg" alt=""/>
-                  <p class="r-2lvl-description">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                </div></a>
+        <button type="button" id="left-button" class="btn btn-default">&lt; Donut Land</button>
+        <button type="button" id="right-button" class="btn btn-default">Cheeseburger Land &gt;</button>
+      </div>
 
-              <h3>Trophy: Recipes</h3>
-                <div class="imgholder">
-                  <img class="image" src="img/ribs.jpg" alt=""/>
-                  <p class="r-2lvl-description">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                </div>
-
-
-              <h3>Trophy: Recipes</h3>
-                <div class="imgholder">
-                  <img class="image" src="img/ribs.jpg" alt=""/>
-                  <p class="r-2lvl-description">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-
+      <div class="col-lg-4">
+            <h3>Yogurtland</h3>
+            <h6 class="tag-list">TAGGED: #bigportion #under5</h6>
+            <div class="well">
+              <table class="r-info">
+                <tr>
+                  <td>ETA (driving): 8 min</td>
+                </tr>
+                <tr>
+                  <td>Credit? <strong>Y</strong></td>
+                </tr>
+                <tr>
+                  <td>Cash? <strong>Y</strong></td>
+                </tr>
+                <tr>
+                  <td>Budget: <strong>&lt; $5</strong></td>
+                </tr>
+                <tr>
+                  <td>Wi-fi? <strong>Y</strong></td>
+                </tr>
+              </table>
+              <table class="right-info">
+                <tr>
+                  <td>Hours<br>M-F: 7am-7pm<br>Weekend: 10am-6pm</td>
+                </tr>
+              </table>
             </div>
 
-              <h3>Trophy: Recipes</h3>
-                <div class="imgholder">
-                  <img class="image" src="img/ribs.jpg" alt=""/>
-                  <p class="r-2lvl-description">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                </div>
+
+          <div class="restaurant-description">
+            <h4>Top Menu Items</h4>
+            <ul class="menu-list">
+              <li class="menu-list-item">Self serve yogurt: 39 cents/oz</li>
+              <li class="menu-list-item">Item 2</li>
+              <li class="menu-list-item">Item 3</li>
+              <li class="menu-list-item">Item 4</li>
+              <li class="menu-list-item">Item 5</li>
+            </ul>
           </div>
-        
+      </div>
+
+      <div id="right-col" class="col-lg-4">
+        <div class="well">
+            <img src="img/ribs.jpg" alt="such yum. many food. wow."/>
+        </div>
+        <div class="well">
+            <img src="img/map_filler.png" alt=""/>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="well">
+          <div class="review">
+            <h4 class="review-title">This place rocks!</h4><p class="author">by <em>username</em> on <em>some date</em></p>
+            <p class="review-detail">And this is why!</p>
+          </div>
+          <div class="review">
+            <h4 class="review-title">This place rocks!</h4><p class="author">by <em>username</em> on <em>some date</em></p>
+            <p class="review-detail">And this is why!</p>
+          </div>
+          <div class="review">
+            <h4 class="review-title">This place rocks!</h4><p class="author">by <em>username</em> on <em>some date</em></p>
+            <p class="review-detail">And this is why!</p>
+          </div>
+        </div>
+      </div>
 
        <div class="clear"></div>
       </div>
-      
+
 
       <hr>
 
     <div class="row">
       <footer>
-        <p>&copy; Company 2013</p>
-      </footer>
+          <div class="well footer-content">
+
+            <ul>
+              <li>&copy; Gluttony 2014</li>
+              <li>|</li>
+              <li class="divider">Foodporn</li>
+              <li>Recipes</li>
+              <li>Restaurants</li>
+              <li>Submit</li>
+              <li>|</li>
+              <li>About</li>
+              <li>|</li>
+              <li class="divider">Harry Bui  Jessica Aceret  Thomas Chang</li>
+          </div>
+        </footer>
     </div>
 
     </div>
