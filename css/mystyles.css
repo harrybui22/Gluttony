@@ -338,3 +338,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 #right-button {
 	float: right;
 }
+
+.btn-default {
+	width: 180px;
+}
