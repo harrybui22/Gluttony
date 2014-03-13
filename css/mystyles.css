@@ -303,6 +303,27 @@ footer {
 	padding-top: 20px;
 }
 
+.imgWrap { /* For Span*/
+	display: inline-block;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+.imgWrap img {
+    opacity: 1;
+}
+
+
+.imgWrap:hover {
+	background-color: #000;
+}
+
+img:hover, .imgWrap:hover img{
+	opacity: 0;
+}
+
+
+
 /* Forms*/
 .search { /* Search bar */
 	display:block;
@@ -424,10 +445,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	visibility: visible;
 }
 
-.imgholder:hover img {
+/*.imgholder:hover img {
 	background-color: #000;
 	opacity: 0.5;
-}
+}*/
 
 .r-2lvl-description {
 	font-size: 14px;
