@@ -56,10 +56,46 @@
 	clear:both
 }
 
+.row-fp { /* foodporn */
+	margin-right:0px;
+	margin-left:0px;
+	margin-bottom: 2.5%
+}
+.row-fp:before,.row-fp:after {
+	display:table;
+	content:" "
+}
+.row-fp:after {
+	clear:both
+}
+.row-fp-head { /* Navbar container */
+	margin-right:0px;
+	margin-left:0px;
+	margin-bottom: 1%;
+}
+.row-fp-head:before,.row-fp-head:after {
+	display:table;
+	content:" "
+}
+.row-fp-head:after {
+	clear:both
+}
+
 .col-md-3{
 	position:relative;
 	min-height:1px;
 	padding: 0px;
+}
+
+.col-lg-8.fp-desc{
+	padding-right:0px;
+	padding-left:0px
+}
+
+.col-lg-3.fp-droll{
+	text-align: middle;
+	padding-right:30%;
+	padding-top: 1%
 }
 
 
@@ -228,6 +264,18 @@
 	padding-left:0px
 }
 
+.col-lg-4.left{
+	text-align: left;
+	padding-right:0px;
+	padding-left:0px
+}
+
+.col-lg-4.right{
+	text-align: right;
+	padding-right:0px;
+	padding-left:0px
+}
+
 
 /* Breadcrumbs */
 .breadcrumb {
@@ -291,6 +339,19 @@ footer {
 }
 .img-circle {
 	border-radius:50%
+}
+
+.row-fp .img-drolled {
+	width: 175px;
+	height: 175px
+}
+
+.row-fp .img-profile {
+}
+
+.row-fp .img-vote {
+	width: 75px;
+	height:75px
 }
 
 .well img {
@@ -477,4 +538,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .btn-default {
 	width: 180px;
+}
+
+.row-fp h3{
+	font-size: 24px
+}
+
+.row-fp p{
+	font-size: 14px
 }
