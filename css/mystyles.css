@@ -431,6 +431,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	border-radius: 0px;
 }
 
+.btn-warning {
+
+}
+
+.submit-buttons {
+	margin-left: 8%;
+}
+
+.fp-submitbox {
+	width: 90%;
+	height: 250px;
+}
+
 .imgholder .r-2lvl-description {
 	position:relative;
 	bottom:100px;
@@ -443,10 +456,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	visibility: visible;
 }
 
+.input-group {
+	max-width: 300px;
+}
+
 /*.imgholder:hover img {
 	background-color: #000;
 	opacity: 0.5;
 }*/
+
+#fp-title {
+	width: 230px;
+	margin-bottom: 20px;
+}
 
 .r-2lvl-description {
 	font-size: 14px;
@@ -477,4 +499,54 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .btn-default {
 	width: 180px;
+}
+
+.btn-warning {
+	width: 290px;
+	margin: 0px 2px;
+}
+
+.manifest {
+	text-align: center;
+	margin: 75px 0px 150px 45%;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 100px;
+}
+
+.pic-btn {
+	width: 230px;
+	display: block;
+}
+
+.r-submitbox {
+	width: 90%;
+	height: 150px
+}
+
+.submit-intro {
+	margin: 30px 0px 50px 34%;
+}
+
+.submit-left {
+	float: left;
+	margin: 100px 0px 0px 85px;
+	border-right: 2px solid #ccc;
+	width: 375px;
+}
+
+.submit-right {
+	padding: 100px 0px 0px 550px;
+}
+
+#tagbox {
+	width: 230px;
+}
+
+#tag-title {
+	margin-top: 120px;
+}
+
+#tag-recipe {
+	margin-top: 50px;
 }
