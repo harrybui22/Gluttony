@@ -11,6 +11,15 @@
 
  /* Containers ========================================== */
 /* Main container */
+
+.carousel-caption h1 {
+	text-shadow: 1px 2px 0px #000000;
+}
+
+.carousel-caption p {
+	text-shadow: 1px 2px 0px #000000;
+}
+
  .container {
 	padding-right:15px;
 	padding-left:15px;
@@ -496,13 +505,48 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 }
 
-.submit-buttons {
-	margin-left: 8%;
+#fact-box {
+	width: 91%;
+}
+
+#fact-box p {
+	padding: 40px 0px 20px 0px;
 }
 
 .fp-submitbox {
 	width: 90%;
 	height: 250px;
+}
+
+.ibox {
+	margin-top: 20px;
+}
+
+.ibox input {
+	margin-left: 40px;
+}
+
+.ing-list {
+	width: 44%;
+	padding-right: 70px;
+	border-right: 1px solid #ccc;
+	display: inline-block;
+}
+
+.ing-list li,
+.ing-steps li {
+	padding: 10px 20px 10px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.ing-list h4 {
+	margin-top: 50px;
+}
+
+.ing-steps {
+	float: right;
+	padding-top: 35px;
+	width: 52%;
 }
 
 .imgholder .r-2lvl-description {
@@ -515,6 +559,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .imgholder:hover .r-2lvl-description {
 	visibility: visible;
+}
+
+.ing {
+	list-style-type: none;
+}
+
+.ingredient-box {
+	border-top: 2px solid #ccc;
+	margin: 40px 0px 0px 0px;
+	width: 95%;
+	padding-top: 40px;
 }
 
 .input-group {
@@ -578,7 +633,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .pic-btn {
 	width: 230px;
-	display: block;
+	display: inline-block;
 }
 
 .r-submitbox {
@@ -586,19 +641,41 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	height: 150px
 }
 
+.recipe-item {
+	list-style-type: none;
+	padding-bottom: 30px;
+}
+
+#fact-box input {
+	padding-right: 20px;
+}
+
 .submit-intro {
-	margin: 30px 0px 50px 34%;
+	margin: 30px 0px 50px 28%;
 }
 
 .submit-left {
 	float: left;
-	margin: 100px 0px 0px 85px;
+	margin: 100px 0px 0px 0px;
 	border-right: 2px solid #ccc;
 	width: 375px;
 }
 
+.submit-left h3 {
+	margin-top: 0px;
+}
+
+.submit-left h6 {
+	display: inline-block;
+}
+
 .submit-right {
-	padding: 100px 0px 0px 550px;
+	padding: 100px 0px 0px 490px;
+}
+
+.submit-container {
+	margin-left: 55px;
+	width: 90%;
 }
 
 #tagbox {
@@ -610,9 +687,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 #tag-recipe {
-	margin-top: 50px;
+	margin-top: 60px;
+}
 
-.row-fp h3{
+.time-box {
+	max-width: 30px;
+}
+
+#userbox {
+	width: 230px;
+}
+
+.row-fp h3 {
 	font-size: 24px
 }
 
