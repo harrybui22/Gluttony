@@ -596,6 +596,57 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	padding-top: 20px;
 }
 
+.recipe-description p{
+	font-size: 15px;
+	padding-top: 26px
+}
+.ingredient-description {
+	font-size: 15px;
+	padding-top: 4px;
+}
+.ingredient-description .well{
+	font-size: 15px;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+.ingredient-description .menu-list{
+	font-size: 15px;
+	line-height: .75px;
+	list-style-type: lower-roman;
+	padding-left: 33px
+}
+.recipe-notes p{
+	font-size: 13px;
+	line-height: 6.5px
+}
+.instruction {
+	padding: 5px;
+}
+.instruction .size{
+	height: 200px;
+	padding: 0px;
+}
+.instruction .step{
+	text-align: right;
+	vertical-align: middle;
+	line-height: 200px;
+	margin: 0px;
+	padding-right: 7px
+}
+.instruction .img{
+	width: 200px;
+	height: 200px;
+}
+.instruction #details{
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 13px;
+	height: 200px;
+	padding-left: 2px
+}
+
+
 .review {
 	border-bottom: 1px solid #ccc;
 	padding: 20px 0px;
