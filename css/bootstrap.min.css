@@ -321,7 +321,7 @@ cite {
 	text-align:center
 }
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:'Arvo',"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:500;
 	line-height:1.1
 }
@@ -3326,6 +3326,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	color:#ccc;
 	content:"/\00a0"
 }
+
+
 .breadcrumb>.active {
 	color:#999
 }
