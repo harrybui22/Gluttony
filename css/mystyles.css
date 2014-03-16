@@ -4,9 +4,15 @@
    Author's custom styles
    ========================================================================== */
  /* Global Elements */
- /*body {
- 	font-family: 'Montserrat', sans-serif;
- } */ 
+ a {
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ a:hover {
+ 	text-decoration: none;
+ 	color: black;
+ }
 
 
  /* Containers ========================================== */
@@ -75,6 +81,7 @@
  .container {
 	padding-right:15px;
 	padding-left:15px;
+	background-color: white;
 	/*margin-right:auto;
 	margin-left:auto*/
 }
@@ -637,7 +644,7 @@ footer {
 }
 
 #clicked {
-	background-color: #FD6449;
+	background-color: #f58625;
 }
 
 .menu-list {
