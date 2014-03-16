@@ -666,11 +666,17 @@ footer {
 }
 
 .list-group-item:active {
-	background-color: #FD6449;
+	background-color: #771113;
+	color:#fff;
 }
 
 #clicked {
 	background-color: #f58625;
+}
+
+#listbox {
+	font-family:'Arvo', sans-serif;
+
 }
 
 .menu-list {
