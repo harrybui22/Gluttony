@@ -23,6 +23,49 @@
 	font-family: 'Arvo', sans-serif;
 }
 
+.carousel-button {
+	/*
+	background:#000;
+	color: #F58625;
+	*/
+	background: #F58625;
+	color: #000;
+	
+	padding: 10px 16px;
+	font-size: 18px;	
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	-o-transition:.4s ease-in-out;
+	-ms-transition:.4s ease-in-out;
+	-moz-transition:.4s ease-in-out;
+	-webkit-transition:.4s ease-in-out;
+	transition:.4s ease-in-out;
+}
+
+.carousel-button:hover {
+	background:#000;
+	color: #F58625;
+	/*
+	background: #F58625;
+	color: #000;
+	*/
+	text-decoration:none;
+	-o-transition:.4s ease-in-out;
+	-ms-transition:.4s ease-in-out;
+	-moz-transition:.4s ease-in-out;
+	-webkit-transition:.4s ease-in-out;
+	transition:.4s ease-in-out;
+}
+
 .darken {
 	-webkit-filter: brightness(50%);
 	-o-filter: brightness(50%);
