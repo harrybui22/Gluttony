@@ -872,7 +872,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	vertical-align: middle;
 	line-height: 200px;
 	margin: 0px;
-	padding-right: 7px
+	padding-right: 18px
 }
 .instruction .img{
 	width: 200px;
@@ -884,7 +884,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	vertical-align: middle;
 	font-size: 13px;
 	height: 200px;
-	padding-left: 2px
+	padding-left: 12px
 }
 
 
@@ -1048,4 +1048,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .row-fp p{
 	font-size: 14px
 
+}
+
+.bold {
+	font-weight:bold
 }
