@@ -269,6 +269,18 @@
 	font-style: italic;
 }
 
+.well-blank .title-list {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-left:0px;
+	font-family:'Arvo', sans-serif;
+}
+
+.well-blank .title-list li{
+	margin-bottom:10px;
+}
+
 /* NEW Navbar =========================================*/
 .newnavbar {	
 	position:relative;
@@ -440,6 +452,7 @@ footer {
 }
 .footer-content {
 	font-family: 'Arvo', serif;
+	letter-spacing:0.5px;
 
 }
 .footer-content ul {
@@ -460,10 +473,20 @@ footer {
 
 .footerlink{
 	color:#5a5a5a;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+
 }
 
 .footerlink:hover{
 	text-decoration:none;
+	color:#F58625;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 
 }
 
@@ -478,14 +501,18 @@ footer {
 	/*border:1px solid #ddd;*/
 	/*border-radius:4px;*/
 	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	margin-bottom: 2%;
 }
 
 .img-nav:hover {
 	opacity:0.6;
-	transition:all 0.2s ease-in-out;
 	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 .img-re { /* Recipe */
 	display:inline-block;
