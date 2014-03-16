@@ -597,6 +597,15 @@ footer {
 	-o-transition: 0.2s all
 }
 
+.well-re p {
+	font-family:'Arvo', sans-serif;
+}
+
+.well-re h2 {
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
+}
+
 .imgWrap:hover {
 	-webkit-filter: brightness(20%);
 	-o-filter: brightness(20%);
