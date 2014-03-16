@@ -675,7 +675,8 @@ footer {
 }
 
 #listbox {
-	font-family:'Arvo', sans-serif;
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
 
 }
 
@@ -958,8 +959,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .manifest {
 	text-align: center;
 	margin: 75px 0px 150px 45%;
-	border: 1px solid #ccc;
-	border-radius: 10px;
 	width: 100px;
 }
 
