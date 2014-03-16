@@ -982,7 +982,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .submit-intro {
-	margin: 30px 0px 50px 28%;
+	/*margin: 30px 0px 50px 28%;*/
+	margin-left:25%;
+	right:25%;
+	font-family:'Arvo', sans-serif;
+	font-size:16px;
 }
 
 .submit-left {
