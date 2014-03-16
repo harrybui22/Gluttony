@@ -763,7 +763,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .ing-list {
 	width: 44%;
 	padding-right: 70px;
-	border-right: 1px solid #ccc;
+	
 	display: inline-block;
 }
 
@@ -816,7 +816,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .ingredient-box {
-	border-top: 2px solid #ccc;
+	
 	margin: 40px 0px 0px 0px;
 	width: 95%;
 	padding-top: 40px;
@@ -1002,8 +1002,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .submit-left {
 	float: left;
 	margin: 100px 0px 0px 0px;
-	border-right: 2px solid #ccc;
-	width: 375px;
+
+	width: 420px;
 }
 
 .submit-left h3 {
