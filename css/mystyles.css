@@ -108,6 +108,11 @@
 	display:table;
 	content:" "
 }
+
+.row .carousel{
+	margin-bottom:0px;
+
+}
 .row:after {
 	clear:both
 }
@@ -257,23 +262,36 @@
 
 .well-blank {
 	min-height:20px;
-	padding:19px;
 	margin-bottom:20px;
+	height:auto;
+	/*border:1px solid;*/
+	padding-top:30px;
+	padding-left:20px;
+
 }
 
 .well-blank h2{
-	font-size:24px;
+	font-size:40px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing:1px;
 	display:inline;
+	color:#000;
+
+	/*color:#F586258*/
 }
+
 
 .well-blank .title-ital {
 	font-family: 'Arvo', sans-serif;
 	display:inline;
-	font-size:22px;
+	font-size:38px;
 	font-style: italic;
+}
+.well-blank img{
+	max-width:100%;
+	max-height:500px;
+	display:block;
 }
 
 .well-blank .title-list {
@@ -282,10 +300,27 @@
 	margin-left: 20px;
 	padding-left:0px;
 	font-family:'Arvo', sans-serif;
+	font-size:30px;
+	font-color: #F58625;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
 }
 
 .well-blank .title-list li{
 	margin-bottom:10px;
+
+}
+
+.well-blank .title-list li:hover{
+	background-color: #F58625;
+	color: #000;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	width:auto;
 }
 
 /* NEW Navbar =========================================*/
