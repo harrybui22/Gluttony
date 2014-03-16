@@ -276,7 +276,7 @@
 	margin-left: 20px;
 	padding-left:0px;
 	font-family:'Arvo', sans-serif;
-	font-size:27px;
+	font-size:24px;
 	font-color: #F58625;
 	-webkit-transition:all .2s ease-in-out;
 	-o-transition:all .2s ease-in-out;
@@ -987,6 +987,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	right:25%;
 	font-family:'Arvo', sans-serif;
 	font-size:16px;
+	margin-bottom:30px;
 }
 
 .submit-left {
