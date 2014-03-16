@@ -62,7 +62,7 @@
     <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav nav-justified">
+                    <ul class="nav navbar-nav nav-justified">
             <li>
               <a href="foodporn.html">Foodporn</a>
             </li>
@@ -78,23 +78,27 @@
       </div>
     </div>
 
+
+
     <div class="row">
       <div class="jumbotron">
     
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="recipes.html">Recipes</a></li>
-      <li class="breadcrumb-item"><a href="#">Trending</a></li>
-    </ol>
+      <!-- Breadcrumbs -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="recipes.html">Recipes</a></li>
+        <li class="breadcrumb-item"><a href="recipes.html">Random</a></li>
+        <li class="breadcrumb-item"><a href="#">Third</a></li>
+      </ol>
 
 
       <!-- Sidebar -->
       <div class="col-lg-4">
         <div class="well" id="listbox">
-          <ul class="list-group">
-           <li class="list-group-item"><a href="recipes.html"><div>Random</div></a></li>
+<ul class="list-group">
+           <li id="clicked" class="list-group-item"><a href="recipes.html"><div>Random</div></a></li>
             <li class="list-group-item"><a href="recipes_top_rated.html"><div>Top Rated</div></a></li>
-            <li id="clicked" class="list-group-item"><a href="recipes_trending.html"><div>Trending</div></a></li>
-            <li class="list-group-item"><a href="recipes_most_recent.html"><div>Most Recent</div></a></li>
+            <li class="list-group-item"><a href="recipes_trending.html"><div>Trending</div></a></li>
+            <li class="list-group-item"><a href="#"><div>Most Recent</div></a></li>
           </ul>
           <h3>Top Tags</h3>
           <ul class="list-group">
@@ -112,85 +116,122 @@
             <li class="list-group-item"><a href="recipes_dessert.html"><div>Dessert</div></a></li>
             <li class="list-group-item"><a href="recipes_lunch.html"><div>Lunch</div></a></li>
             <li class="list-group-item"><a href="recipes_dinner.html"><div>Dinner</div></a></li>
-          </ul>  
+          </ul>
         </div>
        <div class="clear"></div>
       </div>
 
-
+      <!-- Item Nav Cursors -->
       <div class="col-lg-8">
-        <div class="row">
-          <div class="col-lg-6 right">
-             <div class="well-re">
-              <span class = "imgWrap">
-                <a href="recipes_trending_third.html"><img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;"></a>
-              </span>              
-              <h2>Yummy dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                  
-              <h2>Delicious dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                 
-              <h2>Yummy dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                 
-              <h2>Delicious dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-          </div>
-          <div class="col-lg-6 left">
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                   
-              <h2>Delicious dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                 
-              <h2>Yummy dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                 
-              <h2>Delicious dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-            <div class="well-re">
-              <span class = "imgWrap">
-                <img class="img-re" alt="275x275" src="img/placeholder275x275.png" style="width: 275px; height: 275px;">
-              </span>                 
-              <h2>Yummy dish</h2>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </div>
-          </div>
-
-
-        </div>
-
-
+        <button type="button" id="left-button" class="btn btn-default">&lt;&lt; </button>
+        <button type="button" id="right-button" class="btn btn-default"> &gt;&gt;</button>
       </div>
         
+      
+      <div class="col-lg-4 recipe-description">
+          <h3>Random Recipe</h3>
+          <h6 class="tag-list">TAGGED: #chili #hamburger #greasy #calories</h6>
+          
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+
+          <div class="ingredient-description">
+            <div class="well">
+              <h4>Ingredients</h4>
+              <ul class="menu-list">
+                <li class="menu-list-item">Chili</li>
+                <li class="menu-list-item">Item 2</li>
+                <li class="menu-list-item">Item 3</li>
+                <li class="menu-list-item">Item 4</li>
+                <li class="menu-list-item">Item 5</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+
+      <div id="right-col" class="col-lg-4">
+        <div class="well">
+            <img src="img/placeholder580x580.png" alt="such yum. many food. wow."/>
+        </div>
+        <div class="well recipe-notes">
+            <p>Time to prepare: XX min</p>
+            <p class="bold">I can get ingredients from:</p>
+            <p>Grocery story: Y/N</p>
+            <p>On-campus market: Y/N</p>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 1</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 2</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 3</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 4</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 5</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>                                
+      </div>
 
        <div class="clear"></div>
       </div>
-      
+
 
       <hr>
 

@@ -62,45 +62,15 @@
     <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav nav-justified">
-            <li class="dropdown">
+                    <ul class="nav navbar-nav nav-justified">
+            <li>
               <a href="foodporn.html">Foodporn</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Recipes</li>                
-                <li><a href="#">Chicken</a></li>
-                <li><a href="#">Salad</a></li>
-                <li><a href="#">Desserts</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Restaurants</li>
-                <li><a href="#">Mexican</a></li>
-                <li><a href="#">Thai</a></li>
-              </ul>
             </li>
-            <li class="dropdown active">
+            <li class="active">
               <a href="recipes.html">Recipes</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Recipes</li>                
-                <li><a href="#">Chicken</a></li>
-                <li><a href="#">Salad</a></li>
-                <li><a href="#">Desserts</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Restaurants</li>
-                <li><a href="#">Mexican</a></li>
-                <li><a href="#">Thai</a></li>
-              </ul>
             </li>
-            <li class="dropdown">
+            <li>
               <a href="restaurants.html">Restaurants</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Recipes</li>                
-                <li><a href="#">Chicken</a></li>
-                <li><a href="#">Salad</a></li>
-                <li><a href="#">Desserts</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Restaurants</li>
-                <li><a href="#">Mexican</a></li>
-                <li><a href="#">Thai</a></li>
-              </ul>
             </li>
             <li><a href="submit.html">Submit</a></li>
           </ul>
@@ -108,12 +78,15 @@
       </div>
     </div>
 
+
+
     <div class="row">
       <div class="jumbotron">
     
+      <!-- Breadcrumbs -->
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Recipes</a></li>
-        <li class="breadcrumb-item"><a href="#">Top Rated</a></li>
+        <li class="breadcrumb-item"><a href="recipes.html">Recipes</a></li>
+        <li class="breadcrumb-item"><a href="recipes_top_rated.html">Top Rated</a></li>
         <li class="breadcrumb-item"><a href="#">Third</a></li>
       </ol>
 
@@ -121,74 +94,144 @@
       <!-- Sidebar -->
       <div class="col-lg-4">
         <div class="well" id="listbox">
-          <ul class="list-group">
-           <li class="list-group-item"><a href="#"><div>Random</div></a></li>
+<ul class="list-group">
+           <li class="list-group-item"><a href="recipes.html"><div>Random</div></a></li>
             <li id="clicked" class="list-group-item"><a href="recipes_top_rated.html"><div>Top Rated</div></a></li>
             <li class="list-group-item"><a href="recipes_trending.html"><div>Trending</div></a></li>
-            <li class="list-group-item"><a href="recipes_most_recent.html"><div>Most Recent</div></a></li>
+            <li class="list-group-item"><a href="#"><div>Most Recent</div></a></li>
           </ul>
           <h3>Top Tags</h3>
           <ul class="list-group">
-            <li class="list-group-item"><a href="recipes_bftb.html"><div>#bangforthebuck</div></a></li>
-            <li class="list-group-item"><a href="recipes_bigportion.html"><div>#bigportion</div></a></li>
-            <li class="list-group-item"><a href="recipes_openlate.html"><div>#openlate</div></a></li>
-            <li class="list-group-item"><a href="recipes_ayce.html"><div>#ayce</div></a></li>
-            <li class="list-group-item"><a href="recipes_cardiacarrest.html"><div>#cardiacarrest</div></a></li>
+            <li class="list-group-item"><a href="recipes_quick.html"><div>#quick</div></a></li>
+            <li class="list-group-item"><a href="recipes_easy.html"><div>#easy</div></a></li>
+            <li class="list-group-item"><div>#yummy</div></li>
+            <li class="list-group-item"><div>#cheap</div></li>
+            <li class="list-group-item"><div>#glutenfree</div></li>
+          </ul>
+          <h3>Meals</h3>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="recipes_snacks.html"><div>Snack</div></a></li>
+            <li class="list-group-item"><a href="recipes_beverage.html"><div>Beverage</div></a></li>
+            <li class="list-group-item"><a href="recipes_breakfast.html"><div>Breakfast</div></a></li>
+            <li class="list-group-item"><a href="recipes_dessert.html"><div>Dessert</div></a></li>
+            <li class="list-group-item"><a href="recipes_lunch.html"><div>Lunch</div></a></li>
+            <li class="list-group-item"><a href="recipes_dinner.html"><div>Dinner</div></a></li>
           </ul>
         </div>
        <div class="clear"></div>
       </div>
 
-
+      <!-- Item Nav Cursors -->
       <div class="col-lg-8">
-        <button type="button" id="left-button" class="btn btn-default">&lt; Prev Yummy</button>
-        <button type="button" id="right-button" class="btn btn-default">Next Yummy &gt;</button>
+        <button type="button" id="left-button" class="btn btn-default">&lt;&lt; </button>
+        <button type="button" id="right-button" class="btn btn-default"> &gt;&gt;</button>
       </div>
         
+      
+      <div class="col-lg-4 recipe-description">
+          <h3>Top Rated Recipe</h3>
+          <h6 class="tag-list">TAGGED: #chili #hamburger #greasy #calories</h6>
+          
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
-      <div class="col-lg-4">
-          <h3>Trending Item</h3>
-          <h6 class="tag-list">TAGGED: #dank #yummy</h6>
+
+          <div class="ingredient-description">
+            <div class="well">
+              <h4>Ingredients</h4>
+              <ul class="menu-list">
+                <li class="menu-list-item">Chili</li>
+                <li class="menu-list-item">Item 2</li>
+                <li class="menu-list-item">Item 3</li>
+                <li class="menu-list-item">Item 4</li>
+                <li class="menu-list-item">Item 5</li>
+              </ul>
+            </div>
+          </div>
       </div>
 
-      <div class="col-lg-8">
+      <div id="right-col" class="col-lg-4">
         <div class="well">
-          <div class="row-fp">
-            <img class="img-profile" alt="600x300" src="img/placeholder600x300.png"> 
-          </div>
-          <div class="row-fp">
-            <div class="col-lg-8 fp-desc">
-              <h3>Description</h3>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-            <div class="col-lg-4 right">
-              <img class="img-vote" alt="75x75" src="img/placeholder75x75.png"> 
-            </div>
-          </div>
-
-          <div class="row-fp">
-              <h3>People who saw this also drolled at...</h3>
-
-              <div class="col-lg-3 fp-droll">
-                <img class="img-drolled" alt="175x175" src="img/placeholder175x175.png">                 
-              </div>
-
-              <div class="col-lg-3 fp-droll">
-                <img class="img-drolled" alt="175x175" src="img/placeholder175x175.png">             
-              </div>
-
-              <div class="col-lg-3 fp-droll">
-                <img class="img-drolled" alt="175x175" src="img/placeholder175x175.png">                
-              </div>
-          </div>
+            <img src="img/placeholder580x580.png" alt="such yum. many food. wow."/>
+        </div>
+        <div class="well recipe-notes">
+            <p>Time to prepare: XX min</p>
+            <p class="bold">I can get ingredients from:</p>
+            <p>Grocery story: Y/N</p>
+            <p>On-campus market: Y/N</p>
         </div>
       </div>
 
+      <div class="col-lg-8">
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 1</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
 
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 2</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 3</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 4</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="well instruction">
+          <div class="col-lg-2 size">
+            <h4 class="step">Step 5</h4>
+          </div>
+          <div class="col-lg-4 size">
+            <img class="img" src="img/placeholder200x200.png" alt="Step 1"/>
+          </div>
+          <div class="col-lg-6 size">
+            <p id="details">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+
+          <div class="clear"></div>
+        </div>                                
+      </div>
 
        <div class="clear"></div>
       </div>
-      
+
 
       <hr>
 
