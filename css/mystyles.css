@@ -379,6 +379,10 @@
 	transition:.5s ease-in-out;
 }
 
+.newnavlink:active{
+	color:#771113;
+}
+
 
 
 /* Navbar =============================================*/
