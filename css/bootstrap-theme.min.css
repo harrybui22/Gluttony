@@ -40,10 +40,31 @@
 }
 .btn-success {
 	background:#F58625;
+	font-family:'Arvo', sans-serif;
+	text-transform:uppercase;
+	border:none;
+	text-shadow:none;
+	-o-transition:.2s ease-in-out;
+	-ms-transition:.2s ease-in-out;
+	-moz-transition:.2s ease-in-out;
+	-webkit-transition:.2s ease-in-out;
+	transition:.2s ease-in-out;	
+}
+
+.btn-success:hover {
+	background:#000;
+	border:none;
+	color:#F58625;
+	-o-transition:.2s ease-in-out;
+	-ms-transition:.2s ease-in-out;
+	-moz-transition:.2s ease-in-out;
+	-webkit-transition:.2s ease-in-out;
+	transition:.2s ease-in-out;
+
 }
 .btn-success:active,.btn-success.active {
 	background-color:#449d44;
-	border-color:#419641
+	border-color:#419641;
 }
 .btn-warning {
 	background-image:-webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
